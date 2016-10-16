@@ -1,2 +1,2 @@
-# Kirby Books
-A Kirby theme tailored for creating online readable books.
+# kirby-books
+A theme for Kirby CMS for creating webbooks
