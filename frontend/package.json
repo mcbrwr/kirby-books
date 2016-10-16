@@ -1,0 +1,35 @@
+{
+  "name": "kbook",
+  "version": "0.0.1",
+  "description": "Kirby Web-book template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcbrwr/kbook.git"
+  },
+  "keywords": [
+    "A",
+    "Web-Book",
+    "template",
+    "built",
+    "on",
+    "Kirby"
+  ],
+  "author": "M.C. Brouwer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcbrwr/kbook/issues"
+  },
+  "homepage": "https://github.com/mcbrwr/kbook#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-less": "^1.4.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "less-plugin-glob": "^1.1.1",
+    "normalize.css": "^5.0.0",
+    "picturefill": "^3.0.2"
+  }
+}

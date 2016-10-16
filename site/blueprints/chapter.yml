@@ -1,0 +1,34 @@
+title: Chapter
+pages:
+  template: chapter
+  num:
+    mode: default
+    display: null
+  max: null
+  limit: 20
+  sort: false
+  hide: false
+files:
+  sortable: true
+  max: null
+  hide: false
+  sanitize: true
+  fields: null
+  size: null
+  width: null
+  height: null
+fields:
+  title:
+    label: Title
+    type: title
+  body:
+    label: body
+    type: markdown
+    tools:
+      - bold
+      - italic
+      - unorderedList
+      - orderedList
+      - blockquote
+      - image
+      - link

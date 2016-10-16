@@ -1,0 +1,30 @@
+@text-color:        #222;
+@font-size:         20px;
+@line-heigt:        1.4;
+@font-family:       'Neuton', serif;
+@link-color:        #3498DB;
+@link-color-hover:  darken(saturate(@link-color, 15%), 15%);
+
+
+body {
+	font-family: @font-family;
+	font-size: @font-size;
+	line-height: @line-heigt;
+	color: @text-color;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	line-height: 1.1;
+	&:first-child {
+		margin-top: 0;
+	}
+}
+
+a {
+	color: @link-color;
+	&:focus,
+	&:hover {
+	    color: @link-color-hover;
+	}
+}
