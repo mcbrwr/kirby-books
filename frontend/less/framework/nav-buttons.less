@@ -1,15 +1,15 @@
-.mobile-nav {
+/**
+ *
+ * a mixin for basic nav button styling
+ *
+ */
+
+.nav-buttons {
+	// shape
 	background: rgba(255,255,255,.3);
 	line-height: 0;
-	padding: 0;
-	position: fixed;
-	top: .2em;
-	right: .2em;
 	padding: .4em;
 	z-index: 999;
-	@media screen and (min-width: @menu-breakpoint){
-		display: none;
-	}
 	a {
 		text-decoration: none;
 		display: inline-block;
@@ -23,3 +23,5 @@
 		}
 	}
 }
+
+	
