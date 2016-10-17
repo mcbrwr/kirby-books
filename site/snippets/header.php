@@ -1,14 +1,10 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">  
   <link rel="stylesheet" href="/assets/css/main.css">
-
   <title><?php echo $page->title()->html() ?> | <?php echo $site->title()->html() ?></title>
-
 </head>
 <body>
 <nav class="static-nav" role="navigation">
