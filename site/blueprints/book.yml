@@ -22,6 +22,15 @@ fields:
   title:
     label: Title
     type: title
+  subtitle:
+    label: Subtitle
+  subtitle:
+    label: Subtitle
+  Author:
+    label: Auteur
+    type:  tags
+    index: Book
+    lower: false
   body:
-    label: Tekst
+    label: Introtekst
     type: markdown
