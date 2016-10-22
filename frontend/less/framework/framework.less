@@ -6,6 +6,9 @@ html, body {
 }
 
 body {
+	@media screen and (max-width: @menu-breakpoint){
+		padding-top: 40px;
+	}
 	padding: 0;
 	margin: 0;
 	@media screen and (min-width: @menu-breakpoint){
@@ -13,7 +16,6 @@ body {
 	}
 }
 main {
-
 	padding: .65em;
 	@media screen and (min-width: @screen-xs) {
 		padding: 1em 1em 3em;
