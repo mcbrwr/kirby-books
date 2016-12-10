@@ -17,6 +17,16 @@ for more information: http://getkirby.com/license
 
 c::set('license', 'put your license key here');
 
+c::set('routes', array(
+  array(
+    'pattern' => array('settings'),
+    'action'  => function() {
+    	$settings = true;
+    	require(kirby()->roots()->templates() . '/settings.php');
+    }
+  )
+));
+
 /*
 
 ---------------------------------------

@@ -1,3 +1,5 @@
+<?php if (empty($page)) $page = page(); ?>
+<?php if (empty($site)) $site = site(); ?>
 </main>
   
 <nav class="index" role="navigation" id="menu">
